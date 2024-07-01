@@ -1,0 +1,22 @@
+{
+  "name": "single_calc_projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx tsc && node ./dist/index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nguyen Bao Huy",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2"
+  }
+}
